@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+span{
+    padding: 7px;
+    border: 2px solid;
+    border-radius: 10px;
+    display: inline-block;
+}
+input{
+    font-weight: bold;
+    padding: 7px;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    background-color: teal;
+    margin:  auto;
+    border: 5px dashed;
+    width: 400px;
+    height: auto;
+ 
+}
+
+#input:invalid{
+    background-color: rgb(158, 139, 158);
+}
